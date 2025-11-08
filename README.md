@@ -89,4 +89,4 @@ Sebagian besar konten dinamis diatur di dalam tag `<script>` di bagian bawah fil
 * **JavaScript (Vanilla JS)** (Internal Script)
 
 ---
-Dibuat dengan ❤️.
+Dibuat dengan 🤍.

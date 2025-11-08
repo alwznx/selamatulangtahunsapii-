@@ -1,6 +1,6 @@
 # 🎉 Website Ucapan Ulang Tahun Personal
 
-Ini adalah proyek *template single-file* (HTML, CSS, dan JavaScript) untuk membuat halaman web ucapan selamat ulang tahun yang interaktif dan personal. Halaman ini dirancang dengan tema *dark mode* yang modern, efek *glassmorphism*, dan berbagai fitur interaktif untuk memberikan kejutan yang berkesan.
+Ini adalah proyek *templat file* (HTML, CSS, dan JavaScript) untuk membuat halaman web ucapan selamat ulang tahun yang interaktif dan personal. Halaman ini dirancang dengan tema *dark mode* yang modern, efek *glassmorphism*, dan berbagai fitur interaktif untuk memberikan kejutan yang berkesan.
 
 [Sertakan screenshot halaman web Anda di sini]
 

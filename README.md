@@ -18,7 +18,7 @@ Ini adalah proyek *template single-file* (HTML, CSS, dan JavaScript) untuk membu
     * Modal untuk "Ucapan" (menampilkan pesan personal yang panjang).
     * Modal untuk "Kejutan" (memicu konfeti dan pesan singkat).
 * **Desain Responsif:** Tampilan otomatis menyesuaikan diri untuk perangkat *desktop* maupun *mobile*.
-* **Single File:** Semua kode (HTML, CSS, JS) ada dalam satu file `index.html`, membuatnya mudah untuk di-*hosting* di mana saja (seperti GitHub Pages, Netlify, Vercel, dll.).
+* **Single File:** Semua kode (HTML, CSS, JS) ada dalam satu file `github ini`, membuatnya mudah untuk di-*hosting* di mana saja (seperti GitHub Pages, Netlify, Vercel, dll.).
 
 ## 🔧 Cara Menggunakan & Kustomisasi
 

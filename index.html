@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Selamat Ulang Tahun [Nama Pasangan]!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <canvas id="confettiCanvas"></canvas>
+  <header class="container">
+    <div class="logo">🎉</div>
+    <div>
+      <h1>Selamat Ulang Tahun [Nama Pasangan]🎉</h1>
+      <p class="lead">Hadiah kecil dari aku buat kamu</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card hero">
+      <div class="greetings">
+        <h2>Untukmu perempuan yang spesial 🎂</h2>
+        <div class="typed" id="typedText">Semoga hari ini penuh kebahagiaan...</div>
+
+        <div class="cta">
+          <button class="play-btn" id="playBtn">▶️ Putar Musik</button>
+          <button class="share-btn" id="openMessages">Baca Ucapan</button>
+          <button class="share-btn" id="surpriseBtn">🎉 Kejutan</button>
+        </div>
+
+        <div class="messages" id="messageGrid">
+          <div class="msg">Semoga panjang umur, sehat selalu, dan sukses selalu!</div>
+          <div class="msg">Jangan lupa untuk selalu berbakti dan sayang ke orang tua ✨</div>
+          <div class="msg">Hari ini tentangmu, semoga hidupmu selalu terang oleh cinta, tawa, dan keberkahan!</div>
+          <div class="msg">Semoga semua mimpi dan harapanmu jadi kenyataan.</div>
+        </div>
+      </div>
+
+      <div class="card-right">
+        <div class="photo-frame">
+          <img id="heroPhoto" src="assets/photo1.jpg" alt="Photo">
+        </div>
+        <div style="display:flex;gap:8px;margin-top:8px;width:100%;justify-content:center">
+          <button class="share-btn" id="prevPhoto">⟨</button>
+          <button class="share-btn" id="nextPhoto">⟩</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Galeri Kenangan...</h3>
+      <div class="gallery" id="gallery">
+        <img src="assets/photo1.jpg" alt="1">
+        <img src="assets/photo2.jpg" alt="2">
+        <img src="assets/photo3.jpg" alt="3">
+        <img src="assets/photo4.jpg" alt="4">
+        <img src="assets/photo5.jpg" alt="5">
+        <img src="assets/photo6.jpg" alt="6">
+        <img src="assets/photo7.jpg" alt="7">
+        <img src="assets/photo8.jpg" alt="8">
+        <img src="assets/photo9.jpg" alt="9">
+        <img src="assets/photo10.jpg" alt="10">
+        <img src="assets/photo11.jpg" alt="11">
+        <img src="assets/photo12.jpg" alt="12">
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Selamat Bertambah Usia!</h3>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
+        <div class="msg">[Tulis pesanmu di sini...]</div>
+        <div class="msg">[Tulis pesanmu di sini...]</div>
+        <div class="msg">[Tulis pesanmu di sini...]</div>
+      </div>
+    </section>
+
+    <footer>
+      <div>Made with Love.</div>
+      <div style="display:flex;gap:8px"><small id="copyright">2025 • Selamat Ulang Tahun [Nama Pasangan].</small></div>
+    </footer>
+  </main>
+
+  <!-- modal -->
+  <div class="modal" id="modal">
+    <div class="dialog">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+        <h3 id="modalTitle">Detail</h3>
+        <button class="close" id="closeModal">✖</button>
+      </div>
+      <div id="modalBody" style="margin-top:12px"></div>
+    </div>
+  </div>
+
+  <audio id="bgMusic" loop></audio>
+  <script src="script.js"></script>
+</body>
+
+</html>
